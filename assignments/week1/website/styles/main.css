@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap');
 
 body {
-    background-color: lightgrey;
+    background-color: #F2F2F2;
 }
 
 header, main, footer {
@@ -59,6 +59,30 @@ main {
     height: 500px;
 }
 
-footer {
-    height: 100px;
+footer p#copy-notice {
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Zilla Slab', serif;
+    color: #3B3432;
+    padding: 12px 0;
+}
+
+/* Contact Page */
+
+main div#first-column, main div#second-column {
+    vertical-align: top;
+    height: 500px;
+    display: inline-block;
+}
+
+main div#first-column {
+    width: 467px;
+}
+
+main div#first-column form{
+   
+}
+
+main div#second-column {
+    width: 233px;
 }
