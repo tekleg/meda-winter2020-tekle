@@ -1,0 +1,36 @@
+Why are you taking the back-end class? What are your current expectations of the back-end class?
+==>I want to be a full stack developer for my future careers. My expectation is at least to have 
+a fundamental knowledge of MERN stack at end of the program.
+
+
+Before front-end class, did you have coding experience? What computer language(s) and how long ago?
+==> Yes, I had in java before two years a go.
+
+What front-end topics did you find difficult or what did you struggle with?
+==> I struggle with  JavaScript especialy the function part 
+
+
+Did the front-end class meet your expectations? Explain how it did or did not.
+==> I would say yes. At least, I learned how to create your personal 
+website using the HTML, CSS and JavaScript. After I took front-end class, I did 2 times interview. 
+Recruiters invited me for interview after they saw my portfolio, so this is good step for me.
+
+
+Are you switching careers or looking to add skills to your resume? Why?
+==> I am switching for new career. I like to be a developer to solve problem
+
+
+What books or other resources are you depending on outside of class to enhance your learning?
+==> lynda.com and w3school.com, stackoverfolw.com and youtube
+
+
+Other than HTML, CSS, and JavaScript, what other computer languages are you currently learning or are interested in learning? Why?
+==> Now I am focusing to be a MERN full stack developer.  So i need to learn the four component of the RERN stack [ MongoDB, Express, React, and Node. js]  
+
+Where do you see the industry going in the future?
+==>  IT industry is growing fast daily updating with new feature. So I nned always keeping learning to be a full stack develoder in order to get a career with 6 figure payment
+
+After taking the back-end class do you plan or have already planned on continuing your learning in tech? What specifically do you plan on focusing?
+==> After taking the back-end class, I will try to get apprenticeships. My plan is 
+
+
