@@ -1,0 +1,24 @@
+ essay.txt Tue Nov 03 2020 11:36:53 GMT-0800 (Pacific Standard Time)
+
+The file essay.txt contains a total of 2727 letters.
+It has a total of 462 words in it.
+It has a total of 60 sentences in it.
+
+ essay2.txt Tue Nov 03 2020 11:37:16 GMT-0800 (Pacific Standard Time)
+
+The file essay2.txt contains a total of 2602 letters.
+It has a total of 457 words in it.
+It has a total of 54 sentences in it.
+
+ sample-2mb-text-file.txt Tue Nov 03 2020 11:37:47 GMT-0800 (Pacific Standard Time)
+
+The file sample-2mb-text-file.txt contains a total of 1805174 letters.
+It has a total of 319543 words in it.
+It has a total of 43011 sentences in it.
+
+smallessay.txt Tue Nov 03 2020 11:41:28 GMT-0800 (Pacific Standard Time)
+
+The file smallessay.txt contains a total of 136 letters.
+It has a total of 22 words in it.
+It has a total of 3 sentences in it.
+
