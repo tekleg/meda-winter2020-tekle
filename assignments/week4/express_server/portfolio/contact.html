@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+
+    <header>
+        <img src="images/stars-and-stripes-logoa.jpg" width="226" height="150" alt="Website Logo" />
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="contact-page">
+        <div id="first-column">
+            <form>
+                <label for="fName">First Name</label><br />
+                <input type="text" id="fName" /><br />
+                <label for="email">Email</label><br />
+                <input type="text" id="email" /><br />
+                <label for="subject">Subject</label><br />
+                <input type="text" id="subject" /><br />
+                <label for="messages">Message</label><br />
+                <textarea id="message" rows="7"></textarea><br />
+                <input type="reset" />
+                <input type="submit" />
+            </form>
+        </div><div id="second-column">
+            <h2>Address</h2>
+            <p>123 Some Street, San Francisco CA 94110</p>
+            <h2>Phone Number</h2>
+            <p><a href="tel:+14151234567">(415) 123-4567</a></p>
+            <h2>Email</h2>
+            <p><a href="email:example@example.com">example@example.com</a></p>
+        </div>
+    </main>
+
+    <footer>
+        <p id="copy-notice">Copyright &copy; 2020 Eduardo Garcia</p>
+    </footer>
+    
+</body>
+</html>

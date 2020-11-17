@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap');
+
+body {
+    background-color: #F2F2F2;
+}
+
+header, main, footer {
+    background-color: rgb(249, 249, 249);
+    width: 700px;
+    margin: 0 auto;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    width: 350px;
+    position: absolute;
+    right: 0;
+    top: 75px;
+    text-align: right;
+}
+
+nav ul {
+    padding-right: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+    font-family: 'Zilla Slab', serif;
+    font-size: 24px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:link {
+    color: grey;
+}
+
+nav ul li a:visited {
+    color: grey;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+nav ul li a:active {
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
+main {
+}
+
+footer p#copy-notice {
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Zilla Slab', serif;
+    color: #3B3432;
+    padding: 12px 0;
+}
+
+/* Contact Page */
+
+main#contact-page div#first-column, main div#second-column {
+    vertical-align: top;
+    display: inline-block;
+}
+
+main div#first-column {
+    width: 467px;
+}
+
+main div#first-column form label{
+    display: inline-block;
+    font-family: 'Zilla Slab', serif;
+    padding: 18px;
+    text-transform: uppercase;
+    color: grey;
+}
+
+main div#first-column form input, main div#first-column form textarea {
+    display: inline-block;
+    margin-left: 18px;
+    font-size: 24px;
+    padding: 6px;
+    font-family: 'Zilla Slab', serif;
+    border-width: 0;
+    background-color: #e8e8e8;
+    border-radius: 6px;
+}
+
+main div#first-column form textarea {
+    width: 320px;
+}
+
+main div#second-column {
+    width: 233px;
+    height: 300px;
+    margin-top: 18px;
+}
+
+main div#second-column p {
+    padding: 6px;
+    font-family: 'Zilla Slab', serif;
+    color: black;
+}
+
+main div#second-column h2 {
+    padding: 6px;
+    font-size: 18px;
+    font-family: 'Zilla Slab', serif;
+    color: grey;
+    text-transform: uppercase;
+}
+
+main div#second-column a {
+    color: red;
+    text-decoration: none;
+}
+
+/* Services Page */
+
+main#services-page table {
+    /* border: 1px solid grey; */
+    width: 100%;
+}
+
+main#services-page table td, main#services-page table th {
+    /* border: dashed grey 1px; */
+}
+
+main#services-page table thead {
+    background-color: #8fafff;
+}
+
+main#services-page table thead th {
+    padding: 6px;
+    font-family: 'Zilla Slab', serif;
+    color: white;
+    text-transform: uppercase;
+}
+
+main#services-page table tbody td {
+    font-family: 'Zilla Slab', serif;
+    text-align: right;
+    padding: 6px;
+}
+
+main#services-page table .odd-row {
+    background-color: #f2f2f2;
+}

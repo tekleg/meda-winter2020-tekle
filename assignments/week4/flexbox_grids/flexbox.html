@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Example</title>
+
+    <style>
+    #normal {
+        width: 100%;
+        height: 200px;
+        background-color: green;
+    }
+
+    #normal1 {
+        width: 23%;
+        height: 150px;
+        background-color: fuchsia;
+    }
+
+    #normal2 {
+        width: 48%;
+        height: 150px;
+        background-color: fuchsia;
+    }
+
+    #normal3 {
+        width: 23%;
+        height: 150px;
+        background-color: fuchsia;
+    }
+
+    #normal1, #normal2, #normal3 {
+        display: inline-block;
+        margin-right: 1%;
+        margin-left: 1%;
+        margin-top: 25px;
+    }
+
+    #flex {
+        /* display flex tells the browser that we are going to be using a flex box, this rule should be applied to the CONTAINER of the flex box. */
+        display: flex;
+        /* height: 200px; */
+        background-color: purple;
+        /* if no flex-shrink, then children will move down to the next line if there is less space than the flex-basis. */
+        flex-wrap: wrap;
+    }
+
+    #flex1, #flex2, #flex3 {
+        /* flex-basis is the STARTING value for the flex box children. */
+        flex-basis: 300px;
+        /* flex-grow tells us the RATIO of free space this child will get. You compare this number to the siblings to get a ratio.*/
+        flex-grow: 1;
+        /* flex-shrink is inverse of flex-grow, for when we have less space than the flex-basis, the higher the number compared to its siblings, the more free space it must sacrifice. */
+        /* flex-shrink: 4; */
+        height: 150px;
+        background-color: orange;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    #flex1 {
+        /* order of the individual flex box child will assign its location relative to the order of its siblings. All flex box children start with an order of 1. */
+        order: 10000;
+    }
+
+    #flex3 {
+        order: -1;
+    }
+
+    #flex2 {
+        /* flex-grow: 5; */
+        /* flex-shrink: 1; */
+    }
+    </style>
+
+</head>
+<body>
+
+    <div id="normal">
+        <div id="normal1">
+
+        </div><div id="normal2">
+
+        </div><div id="normal3">
+
+        </div>
+    </div>
+
+    <div id="flex">
+        <div id="flex1">
+            <p>this is a child 1</p>
+        </div>
+        <div id="flex2">
+            <p>this is a child 2</p>
+        </div>
+        <div id="flex3">
+            <p>this is a child 3</p>
+        </div>
+    </div>
+    
+</body>
+</html>
