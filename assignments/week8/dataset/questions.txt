@@ -1,0 +1,8 @@
+1. What is the average percentage increase in salary per year for each title? / Which title has the highest percentage increase year over year. Which title has the lowest.
+2. What Title had a decrease in salary for each year
+3. What Union has the most members of these city jobs.
+4. What Job title pays the most within each union code.
+5. How many new Jobs did each year have. Check to see if Title losses are also possible.
+What title have job promotions.
+
+
