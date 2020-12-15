@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 const credentials = require("./credentials.js");
 
 const dbCredentials = credentials.dbURL;
-const dbOptions = {useNewUrlParser: true, useFindAndModify: false, useUnifiedTopology: true};
+const dbOptions = { useNewUrlParser: true, useFindAndModify: false, useUnifiedTopology: true };
 let dbConnection = mongoose.connect(dbCredentials, dbOptions, (error) => {
     if (error) {
         console.log("Mongoose error: " + error);
@@ -31,14 +31,14 @@ const http = require("http").Server(app);
 http.listen(port);
 
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended: false}));
+app.use(bodyParser.urlencoded({ extended: false }));
 
 console.log("Express server is running on port " + port);
 
 app.use("/", express.static("client/"));
 
 app.post("/newNote", (request, response) => {
-    
+
     const note = request.body;
 
     // Sanitize Inputs
@@ -53,10 +53,9 @@ app.post("/newNote", (request, response) => {
     });
 
     newNoteDocument.save((error) => {
-        
+
         const responseObject = {
             saved: false,
-            savedTask: newNoteDocument,
             error: null
         };
 
@@ -68,39 +67,18 @@ app.post("/newNote", (request, response) => {
         }
     });
 });
-
-app.post("/getList", (request, response) => {
-    todoModel.find({}, (error, results) => {
-        
+app.post("/getlist", (request, response) => {
+    //goback to database todo
+    todoMode.find({ }, (error, results) => {
         const responseObject = {
             list: results,
             error: null
         };
-        
-        if (error) {
-            console.log("failed to read database.");
-        } else {
-            response.send(responseObject);
+        if(error) {
+            console.log(" failed to read database.");
+        } else{
+            response.sendStatus(responseObject);
         }
+
     });
-});
-
-app.post("/modify", (req, res) => {
-
-    let request = req.body;
-
-    if (request.action === "delete") {
-        todoModel.findByIdAndDelete(request.id, (error, deleted) => {
-            if (error) {
-                console.log(error);
-            } else {
-                let response = {
-                    copy: deleted
-                }
-
-                res.send(response);
-            }
-        });
-    }
-
 });

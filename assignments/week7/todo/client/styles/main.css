@@ -1,3 +1,54 @@
 body {
-    background-color: #cdffe0;
+    background-color: #d0dadd;
+}
+
+#loading-icon {
+    display: none;
+}
+
+#submit-message {
+    display: none;
+}
+
+#loader {
+    height: 26px;
+    width: 26px;
+    display: inline-block;
+    position: absolute;
+}
+
+#loader #loader-icon {
+    position: relative;
+}
+
+#submit-area {
+    height: 30px;
+    width: 110px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#message {
+    height: 25px;
+    position: absolute;
+}
+
+#message p {
+    position: relative;
+    margin-block-start: 0;
+    color: green;
+}
+
+#tasks {
+    width: 400px;
+    border: solid 1px grey;
+}
+
+#tasks tbody tr td:nth-child(5) {
+    position: absolute;
+}
+
+#tasks tbody tr td img {
+    display: none;
+    position: relative;
 }
