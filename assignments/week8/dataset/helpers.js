@@ -31,7 +31,7 @@ function checkTitleCommas(titleArray) {
 
         let combinedTitleString = cutOutArray.join(",");
 
-        titleArray.splice(2, 0, combinedTitleString);
+        titleArray.splice(3, 0, combinedTitleString);
 
 
         // let lastCharacterIndex = titleArray[4].length - 1;

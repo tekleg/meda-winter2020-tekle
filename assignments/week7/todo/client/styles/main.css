@@ -1,5 +1,22 @@
 body {
     background-color: #d0dadd;
+     
+}
+#bod{
+    width: 600px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+     
+}
+#new-note{
+    margin-left: 100px; 
+}
+
+#notes-list{
+    margin-left: 100px; 
 }
 
 #loading-icon {
@@ -42,6 +59,7 @@ body {
 #tasks {
     width: 400px;
     border: solid 1px grey;
+     
 }
 
 #tasks tbody tr td:nth-child(5) {
